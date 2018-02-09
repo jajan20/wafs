@@ -166,10 +166,3 @@
 //Dit gaat allemaal pas lopen wanneer je app.init aanroept.
 app.init()
 //Je maakt objecten aan, maar er gebeurd nog niets totdat je app.init aanroept.
-
-
-// Conventie Niet teveel logica in je methodes gebruiken.
-
-// Oplevering: 
-
-//Maandag gaan we API aanroepen en dan aan de HTML koppelen.
