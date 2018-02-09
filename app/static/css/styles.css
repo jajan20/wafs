@@ -1,0 +1,10 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+.active {
+	display: block;
+}
+
+section {
+	display: none;
+}
