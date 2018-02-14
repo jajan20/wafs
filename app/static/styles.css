@@ -1,0 +1,17 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+.active {
+	display: block;
+}
+
+section {
+	display: none;
+}
+
+li {
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+}
+
