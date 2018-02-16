@@ -1,4 +1,5 @@
-## Pro's and Con's
+## Week 1
+### Pro's and Con's
 
 ### Frameworks
 ##### The Pro's
@@ -49,3 +50,19 @@ https://remysharp.com/2017/12/15/is-jquery-still-relevant
 https://remysharp.com/2017/12/15/is-jquery-still-relevant
 https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58
 https://www.oberon.nl/whitepapers/single-page-applications
+
+## Week 2
+#### Microblibs
+- [Transparancy.JS](https://github.com/leonidas/transparency)
+- [Routie.js](http://projects.jga.me/routie/)
+
+
+#### Assignments
+The challenge this week was to use microlibs for routing and templating. Even though it somewhat works, I'm still trying to figure out how it exactly works.
+
+- [x] Manage routes en states
+- [x] Get / Post data van/naar API
+- [x] Data manipuleren
+- [x] Data presenteren
+- [ ]Web Worker implementeren (extra)
+- [ ]Code review 
