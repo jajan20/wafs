@@ -64,5 +64,5 @@ The challenge this week was to use microlibs for routing and templating. Even th
 - [x] Get / Post data van/naar API
 - [x] Data manipuleren
 - [x] Data presenteren
-- [ ]Web Worker implementeren (extra)
-- [ ]Code review 
+- [ ] Web Worker implementeren (extra)
+- [ ] Code review 
