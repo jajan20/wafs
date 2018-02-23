@@ -82,12 +82,12 @@ The diagrams below show the path the app follows using the different 'modules'.
 ##### Actor
 The actor represents the different modules or 'actors' for my app.
 
-![](/Users/jamie/Dropbox/HVA/Minor/actorDiagram.png)
+![](https://github.com/jajan20/wafs/blob/master/app/static/images/actorDiagram.png)
 
 ##### Flow
 The flow shows the route every actor connects to and who stands in the spotlight the most.
 
-![](/Users/jamie/Dropbox/HVA/Minor/flowDiagram.png)
+![](https://github.com/jajan20/wafs/blob/master/app/static/images/interactionDiagram.png)
 
 
 
