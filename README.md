@@ -44,12 +44,11 @@ I'll be honest, I didn't really know what the difference was, or what the terms 
 - Development can become quite complex, which in turn takes a lot more time.
 
 ## Sources:
-https://www.webdesignerdepot.com/2012/09/jquery-the-good-the-bad-and-the-ugly/
-https://ralphsaunders.co.uk/jquery-is-dead.html
-https://remysharp.com/2017/12/15/is-jquery-still-relevant
-https://remysharp.com/2017/12/15/is-jquery-still-relevant
-https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58
-https://www.oberon.nl/whitepapers/single-page-applications
+- [jQuery - the Good, the Bad & the Ugly](https://www.webdesignerdepot.com/2012/09/jquery-the-good-the-bad-and-the-ugly/)
+- [jQuery is dead](https://ralphsaunders.co.uk/jquery-is-dead.html)
+- [is jQuery still relevant?](https://remysharp.com/2017/12/15/is-jquery-still-relevant)
+- [SPA vs MPA](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
+- [Single Page Applications](https://www.oberon.nl/whitepapers/single-page-applications)
 
 ## Week 2
 #### Microblibs
@@ -66,3 +65,64 @@ The challenge this week was to use microlibs for routing and templating. Even th
 - [x] Data presenteren
 - [ ] Web Worker implementeren (extra)
 - [ ] Code review 
+
+## Week 3
+
+TvShows - Single Page WebApp.
+
+[Link to website](https://oege.ie.hva.nl/~jansenj031/)
+
+### Preview
+![](/Users/jamie/Dropbox/HVA/Minor/preview.png)
+
+
+### Diagrams
+The diagrams below show the path the app follows using the different 'modules'. 
+
+##### Actor
+The actor represents the different modules or 'actors' for my app.
+
+![](/Users/jamie/Dropbox/HVA/Minor/actorDiagram.png)
+
+##### Flow
+The flow shows the route every actor connects to and who stands in the spotlight the most.
+
+![](/Users/jamie/Dropbox/HVA/Minor/flowDiagram.png)
+
+
+
+
+#### Features
+The page shows a list of the top 20 tv show titles. When clicking on a poster you'll be directed to a details page with information about the show.
+
+- Name
+- Summary 
+- Rating
+- Voted
+- Poster + background poster
+
+This data is pulled from [TheMovieDB](https://www.themoviedb.org/) through their API.
+
+#### Usage
+You need a registered API key in order to be able to use full functionallity.
+I've uploaded my source file for now so that you can use the app.
+
+#### Wishlist
+Since I'm still a beginner with javascript and libraries my wishlist for this app is pretty long for such a small project. But my plan is to keep working on this so that at the end of this minor I can confidently say that I understand what I'm doing.
+
+- [ ] Extending the range of titles of 20 to the complete API library.
+- [ ] Refactor my code to ES6
+- [ ] Optimize Search Function
+
+#### Sources
+- [TheMovieDB - API](https://www.themoviedb.org/)
+- [MicroLib - Transparancy.JS](https://github.com/leonidas/transparency)
+- [MicroLib - Routie.js](http://projects.jga.me/routie/)
+
+
+## Looking back
+The last couple of weeks I learned a lot. But it also made me realise how much I still have to learn. The challenge was to use microlibs correctly so I could render my pages and add data dynamicly.
+
+
+
+
