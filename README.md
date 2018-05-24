@@ -78,7 +78,7 @@ TvShows - Single Page WebApp.
 ![](/Users/jamie/Dropbox/HVA/Minor/preview.png)
 
 
-### Diagrams
+## Diagrams
 The diagrams below show the path the app follows using the different 'modules'. 
 
 ##### Actor
@@ -89,12 +89,9 @@ The actor represents the different modules or 'actors' for my app.
 ##### Flow
 The flow shows the route every actor connects to and who stands in the spotlight the most.
 
-![](https://github.com/jajan20/wafs/blob/master/app/static/images/interactionDiagram.png)
+![](https://raw.githubusercontent.com/jajan20/wafs/master/app/static/images/flow-diagram.png)
 
-
-
-
-#### Features
+## Features
 The page shows a list of the top 20 tv show titles. When clicking on a poster you'll be directed to a details page with information about the show.
 
 - Name
@@ -105,11 +102,11 @@ The page shows a list of the top 20 tv show titles. When clicking on a poster yo
 
 This data is pulled from [TheMovieDB](https://www.themoviedb.org/) through their API.
 
-#### Usage
+## Usage
 You need a registered API key in order to be able to use full functionallity.
 I've uploaded my source file for now so that you can use the app.
 
-#### Wishlist
+## Wishlist
 Since I'm still a beginner with javascript and libraries my wishlist for this app is pretty long for such a small project. But my plan is to keep working on this so that at the end of this minor I can confidently say that I understand what I'm doing.
 
 - [ ] Extending the range of titles of 20 to the complete API library.
