@@ -72,7 +72,7 @@ TvShows - Single Page WebApp.
 
 [Link to website](https://oege.ie.hva.nl/~jansenj031/)
 
-![](https://github.com/jajan20/wafs/blob/master/app/static/images/websitePreview.png)
+![](https://github.com/jajan20/wafs/blob/master/app/static/images/newPreview-wafs.png)
 
 ### Preview
 ![](/Users/jamie/Dropbox/HVA/Minor/preview.png)
