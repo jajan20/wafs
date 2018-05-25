@@ -6,13 +6,13 @@ import loader from './loader.js'
 var router = {
 	init: function() {
 		this.handleEvents()
-		console.log('Router initialized!')
+		// console.log('Router initialized!')
 	},
 	toggle: function(sectionToToggle) {
 		var sections = document.querySelectorAll('section')
 		var activeSection = document.querySelector(sectionToToggle)
 	
-		console.log('active section: ', activeSection)
+		// console.log('active section: ', activeSection)
 
 		sections.forEach(function(section) {
 			section.classList.remove('active')

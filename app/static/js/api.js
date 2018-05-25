@@ -4,7 +4,7 @@ import optimize from './optimize.js'
 var api = {
 	shows: [],
 	getPopularShows: function(result, errorCallback) {
-		console.log('api.getPopularShows')
+		// console.log('api.getPopularShows')
 		var request = {
 			method: 'GET',
 			url: 'https://api.themoviedb.org/3/tv/popular?api_key=ff575feb141fa0d8c58ff1f806f21156'
