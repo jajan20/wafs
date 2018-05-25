@@ -1,26 +1,62 @@
 ## Web app from Scratch
 Introduction course about Object Oriented Coding. Create a single page web app, including an API.
 
+## Feedback
+### What was missing
+**Interaction Flow Diagram**
+> Het interaction flow diagram laat zien hoe de gebruiker interacteert met de app en de app views genereert Overview, detail paginas
+
+With this project I tried using Javascript OOP for the first time. I was missing the interaction diagram that shows the user interactions.
+
+[Link to diagrams](#Diagrams)
+___
+**Data manipulation**
+> De data wordt gemanipuleerd met filter/sort/map/reduce.
+
+When I request data from the API I get a lot of information. I don't need everything on the home page so before I render it to my template engine, I map the data and return just the values I need.
+
+``` js
+var optimize = {
+	popularShows: function(data){
+		return data.results.map(function(item) {
+			return {
+				title: item.original_name,
+				tvShowID: item.id,
+				poster: item.poster_path,
+				summary: item.overview
+			} 
+		})
+	},
+```
+___
+
+**Reduce?**
+
+In the form there was a note saying that I didn't use reduce. (requirements were filter/reduce or map.) But I went to check it out and see if I could use it in my webapp.
+
+After some research I decided that I don't have a pratical use for the reduce function.
+
+[Reduce - FreeCodeCamp](https://medium.freecodecamp.org/reduce-f47a7da511a9)
+
 ## Table of Contents
 
+- [Feedback](#feedback)
 - [Week 3 End](#week-3-end)
 - [Installation](#installation)
 - [Features](#features)
 - [API](#api)
 - [Assignments](#assignments)
-    - [Week 2 Microlibs](#week-2-microlibs)
-    - [Week 1 Pro/Con](#week-1-pro-and-con)
+    - [Week 1 Pro/Cons](#week-1)
+    - [Week 2 Microlibs](#week-2)
 - [Wishlist](#wishlist)
 - [Sources](#sources)
 - [Self reflection](#self-reflection)
-- [Feedback](#feedback)
-
+- [Rubric](#rubric)
 
 ## Week 3 End
+In the last week I've finalized the web app. below you'll find a link to the live version. 
 
-TvShows - Single Page WebApp.
-
-[Link to website](https://oege.ie.hva.nl/~jansenj031/)
+[Link to website](https://oege.ie.hva.nl/~jansenj031/wafs/)
 
 ![](https://github.com/jajan20/wafs/blob/master/app/static/images/newPreview-wafs.png)
 
@@ -33,7 +69,7 @@ The actor represents the different modules or 'actors' for my app.
 ![](https://github.com/jajan20/wafs/blob/master/app/static/images/actorDiagram.png)
 
 ##### Flow
-The flow shows the route every actor connects to and who stands in the spotlight the most.
+The flow diagram shows what happens when a user interacts with the site. Which event fires when clicked and where the data is called.
 
 ![](https://raw.githubusercontent.com/jajan20/wafs/master/app/static/images/flow-diagram-01.png)
 
@@ -53,8 +89,8 @@ The page shows a list of the top 20 tv show titles. When clicking on a poster yo
 This data is pulled from [TheMovieDB](https://www.themoviedb.org/) through their API.
 
 ## Assignments
-# Week 1 - Pro and con
-#### Frameworks
+# Week 1
+#### Pro and con of Frameworks
 ##### The pro
 Depending on what your end goal is but:
 - You don't need to be a coding genius to make flashy visualizations.
@@ -136,14 +172,14 @@ Since I'm still a beginner with javascript and libraries my wishlist for this ap
 ## Self reflection
 The last couple of weeks I learned a lot. But it also made me realize how much I still have to learn. The challenge was to use micro libs correctly so I could render my pages and add data dynamically.
 
-## Feedback
+## Rubric
 - [x] Het betreft een SPA die online gehost is (github pages)
 - [x] Readme.md op GH met 2x flow, api beschr.
 - [x] Het object model diagram geeft inzicht in de opzet van de code
 - [x] Het interaction flow diagram laat zien hoe de gebruiker interacteert met de app en de app views genereert Overview, detail paginas
 - [x] De code is modulair opgezet (met modules of iig object lits), elke module in een apart bestand
 - [x] Externe data wordt middels een templating engine naar HTML gerendered
-- [ ] De data wordt gemanipuleerd met filter/sort/map/reduce.
+- [x] De data wordt gemanipuleerd met filter/sort/map/reduce.
 - [x] Er is feedback naar de user over het laden van data en wat gebeurt er als API offline
 - [x] Student toont begrip van: object, method, callback, this, context, scope, closure, module, strict mode,code flow
 - [x] De code volgt OOP of functional principes en de student kan pattern keuze verdedigen
