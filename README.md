@@ -35,7 +35,7 @@ The actor represents the different modules or 'actors' for my app.
 ##### Flow
 The flow shows the route every actor connects to and who stands in the spotlight the most.
 
-![](https://raw.githubusercontent.com/jajan20/wafs/master/app/static/images/flow-diagram.png)
+![](https://raw.githubusercontent.com/jajan20/wafs/master/app/static/images/flow-diagram-01.png)
 
 ## Installation
 The web app can run on localhost, just be sure to register an API key with the theTVDB.
